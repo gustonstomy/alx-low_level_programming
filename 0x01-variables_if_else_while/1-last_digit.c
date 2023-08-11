@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-*main - Determine whether it's positive, negative, zero
+*main - The last digit
 *Return: Always (Success)
 */
 
