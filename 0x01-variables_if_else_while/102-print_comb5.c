@@ -4,14 +4,14 @@
 
 /**
 *main - Prints numbers should range from 0 to 99
-*Return: Always (Success)
+*Return: Always 0 (Success)
 */
 
 int main(void)
 {
 	int n, q;
 
-	for (n = 0; n < 98; n++)
+	for (n = 0; n <= 98; n++)
 	{
 	for (q = n + 1; q <= 99; q++)
 	{
