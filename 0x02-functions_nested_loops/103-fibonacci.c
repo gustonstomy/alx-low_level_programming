@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -23,5 +22,5 @@ int main(void)
 			term2 = next;
 		}
 		printf("%d\n", sum);
-		return (0);
+		return (0);
 }
