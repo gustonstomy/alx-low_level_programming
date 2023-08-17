@@ -19,5 +19,5 @@ maxf = number / x;
 }
 }
 printf("%ld\n", maxf);
-return(0);
+return (0);
 }
