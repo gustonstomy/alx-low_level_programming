@@ -6,13 +6,13 @@
  * @j: number that iterates from 1 to n
  * Return: 0.
  */
-int primeNum(int a, int b)
+int primeNum(int i, int j)
 {
 	if (i == j)
 		return (1);
 	else if (i % j == 0)
 		return (0);
-	return (prime2(i, j + 1));
+	return (primeNum(i, j + 1));
 }
 /**
  * is_prime_number - checks if a number is prime

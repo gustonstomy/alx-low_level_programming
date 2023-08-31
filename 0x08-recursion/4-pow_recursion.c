@@ -2,7 +2,8 @@
 
 /**
  * _pow_recursion - raises x to the power of y
- * @x: Integer
+ * @x: Integer 1
+ * @y: integer 2
  * Return: 0
  */
 int _pow_recursion(int x, int y)
