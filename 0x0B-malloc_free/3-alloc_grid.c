@@ -4,9 +4,9 @@
 
 /**
 * alloc_grid - array
-* @width: rows 
-* @height: columns 
-* Return: a pointer to a 2 dimensional array 
+* @width: rows
+* @height: columns
+* Return: a pointer to a 2 dimensional array
 */
 
 int **alloc_grid(int width, int height)

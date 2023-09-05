@@ -4,8 +4,8 @@
 
 /**
 * free_grid - array
-* @grid: rows 
-* @height: columns 
+* @grid: rows
+* @height: columns
 * Return: a pointer to a 2 dimensional or NULL
 */
 
