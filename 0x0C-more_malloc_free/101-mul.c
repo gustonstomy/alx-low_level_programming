@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-* is_digit - checks string 
+* is_digit - checks string
 * @s: string to be evaluated
 * Return: 0 for non-digit, 1 otherwise
 */
