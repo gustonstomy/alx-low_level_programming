@@ -32,10 +32,10 @@ list_t *add_node_end(list_t **head, const char *str)
 	last_node->next = NULL;
 	if (*head)
 	{
-		cursor = *head;
+		ptr = *head;
 		while (ptr->next != NULL)
 			ptr = ptr->next;
-		cursor->next = last_node;
+		ptr->next = last_node;
 	}
 	else
 		*head = last_node;
@@ -70,9 +70,9 @@ char *_strdup(const char *str)
 	y = 0;
 	while (str[y] != '\0')
 	{
-		ptr[y] = str[y];
+		temp[y] = str[y];
 		y++;
 	}
-	ptr[y] = '\0';
+	temp[y] = '\0';
 	return (temp);
 }
