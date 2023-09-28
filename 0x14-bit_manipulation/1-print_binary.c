@@ -9,7 +9,7 @@ void print_binary(unsigned long int n)
 {
 	int i;
 	unsigned int temp;
-	int counter;
+	int counter = 0;
 
 	for (i = 63; i >= 0; i--)
 	{
@@ -24,6 +24,6 @@ void print_binary(unsigned long int n)
 			_putchar('0');
 	}
 
-	if (!counter
-			_putchar('0');
-			}
+	if (!counter)
+		_putchar('0');
+}
